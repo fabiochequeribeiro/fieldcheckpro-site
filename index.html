@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CHECKLISTPRO | Plataforma modular para operações em campo</title>
-  <meta name="description" content="CHECKLISTPRO é uma plataforma SaaS modular para gestão de operações em campo, checklists, manutenção, auditorias, evidências, assinaturas, relatórios e dashboards." />
+  <title>FieldCheck Pro | App e portal para checklists, visitas e operações em campo</title>
+  <meta name="description" content="FieldCheck Pro é uma plataforma SaaS multiempresa para ordens de serviço, checklists, fotos, assinaturas, relatórios PDF, ocorrências, inventário e dashboards de operação em campo." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -12,217 +12,257 @@
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="#inicio" aria-label="CHECKLISTPRO">
-      <img src="assets/checklistpro-logo.png" alt="Logo CHECKLISTPRO" />
+    <a class="brand" href="#inicio" aria-label="FieldCheck Pro">
+      <img src="assets/fieldcheck-logo.png" alt="FieldCheck Pro" />
+      <span>FieldCheck Pro</span>
     </a>
-    <nav class="nav">
-      <a href="#plataforma">Plataforma</a>
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#produto">Produto</a>
+      <a href="#portal">Portal</a>
       <a href="#modulos">Módulos</a>
-      <a href="#portal">Portal Web</a>
       <a href="#segmentos">Segmentos</a>
       <a href="#planos">Planos</a>
     </nav>
-    <a class="btn btn-primary small" href="#contato">Solicitar demo</a>
+    <a class="btn btn-primary small" href="https://wa.me/5543984594216?text=Ol%C3%A1%2C%20quero%20conhecer%20o%20FieldCheck%20Pro" target="_blank" rel="noopener">Solicitar demo</a>
   </header>
 
   <main id="inicio">
     <section class="hero">
-      <div class="hero-copy reveal">
-        <span class="eyebrow">Gestão • Checklist • Resultados</span>
-        <h1>A plataforma completa para gestão de operações em campo.</h1>
-        <p>Crie processos personalizados, execute inspeções, gerencie manutenções, acompanhe equipes e entregue relatórios profissionais com fotos, assinaturas e indicadores.</p>
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <span class="eyebrow">App + portal web + dashboards</span>
+        <h1>Controle cada serviço em campo com fotos, assinatura, PDF e indicadores em tempo real.</h1>
+        <p>O FieldCheck Pro transforma ordens de serviço, inspeções, checklist, ocorrências e inventário em um processo digital simples para o técnico e visual para o gestor.</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#contato">Solicitar demonstração</a>
-          <a class="btn btn-secondary" href="#modulos">Ver módulos</a>
+          <a class="btn btn-primary" href="https://wa.me/5543984594216?text=Ol%C3%A1%2C%20quero%20fazer%20um%20teste%20do%20FieldCheck%20Pro" target="_blank" rel="noopener">Começar teste gratuito</a>
+          <a class="btn btn-light" href="#portal">Ver o portal</a>
         </div>
-        <div class="trust-row">
-          <span>✓ Plataforma modular</span>
-          <span>✓ App + Portal Web</span>
-          <span>✓ Multiempresa</span>
-          <span>✓ Relatórios profissionais</span>
+        <div class="hero-proof">
+          <span>30 dias de teste por cliente</span>
+          <span>Multiempresa com permissões</span>
+          <span>Relatórios PDF com evidências</span>
         </div>
-      </div>
-
-      <div class="hero-visual reveal delay-1" aria-label="Demonstração visual da plataforma CHECKLISTPRO">
-        <div class="dashboard-card">
-          <div class="dash-header"><span></span><b>Portal CHECKLISTPRO</b><small>ao vivo</small></div>
-          <div class="kpis">
-            <article><strong>128</strong><span>Serviços</span></article>
-            <article><strong>94%</strong><span>Concluídos</span></article>
-            <article><strong>17</strong><span>Pendências</span></article>
-          </div>
-          <div class="chart-lines"><i></i><i></i><i></i><i></i><i></i></div>
-          <div class="task-list">
-            <span><b></b> Manutenção preventiva <em>Finalizado</em></span>
-            <span><b></b> Entrega técnica <em>Em campo</em></span>
-            <span><b></b> Auditoria de segurança <em>Pendente</em></span>
-          </div>
-        </div>
-        <div class="phone-card">
-          <div class="phone-notch"></div>
-          <img src="assets/checklistpro-logo.png" alt="Logo CHECKLISTPRO no aplicativo" />
-          <h3>Checklist de Campo</h3>
-          <ul>
-            <li><span>✓</span> Fotos vinculadas</li>
-            <li><span>✓</span> Assinatura digital</li>
-            <li><span>✓</span> PDF automático</li>
-          </ul>
-          <button>Salvar visita</button>
-        </div>
-        <div class="floating-badge">📄 PDF com evidências</div>
       </div>
     </section>
 
-    <section class="proof-strip reveal">
-      <article><b>📱</b><span>Aplicativo de campo</span></article>
-      <article><b>🖥️</b><span>Portal administrativo</span></article>
-      <article><b>📊</b><span>Dashboards gerenciais</span></article>
-      <article><b>🔐</b><span>Níveis de acesso</span></article>
+    <section class="problem-strip reveal">
+      <div>
+        <strong>Chega de operação perdida no WhatsApp, papel ou planilha.</strong>
+        <span>O gestor vê o que aconteceu, quem executou, onde foi feito e quais pendências ainda precisam de atenção.</span>
+      </div>
+      <a class="btn btn-secondary" href="#demonstracao">Ver telas reais</a>
     </section>
 
-    <section id="plataforma" class="section split-section">
-      <div class="section-copy reveal">
-        <span class="eyebrow">Nova visão</span>
-        <h2>Não é apenas checklist. É uma plataforma operacional.</h2>
-        <p>O CHECKLISTPRO foi pensado para empresas que precisam padronizar processos, provar execução, reduzir retrabalho e acompanhar tudo em tempo real.</p>
-        <div class="check-grid">
-          <span>✓ Super Admin</span><span>✓ Admin da empresa</span><span>✓ Supervisores</span><span>✓ Técnicos em campo</span>
-          <span>✓ Clientes e equipamentos</span><span>✓ Histórico completo</span><span>✓ Fotos e assinaturas</span><span>✓ Relatórios e indicadores</span>
+    <section id="produto" class="section product-section">
+      <div class="section-title reveal">
+        <span class="eyebrow">Por que o FieldCheck Pro vende bem</span>
+        <h2>Uma plataforma para empresas que precisam provar execução e acompanhar resultados.</h2>
+        <p>O aplicativo resolve a rotina do técnico em campo. O portal entrega controle, padronização e visão gerencial para a empresa.</p>
+      </div>
+      <div class="value-grid">
+        <article class="value-card reveal">
+          <span>01</span>
+          <h3>Padronize o que deve ser checado</h3>
+          <p>Crie modelos de checklist por TAG, equipamento ou processo. Quando o cliente usar a mesma TAG, o sistema puxa os itens automaticamente.</p>
+        </article>
+        <article class="value-card reveal">
+          <span>02</span>
+          <h3>Bloqueie alterações indevidas</h3>
+          <p>A empresa cadastra ordens, usuários, modelos e permissões. O técnico executa apenas o que foi liberado para ele.</p>
+        </article>
+        <article class="value-card reveal">
+          <span>03</span>
+          <h3>Receba evidências completas</h3>
+          <p>Fotos, observações, assinatura, geolocalização, ocorrências, inventário e histórico ficam organizados por pedido e cliente.</p>
+        </article>
+        <article class="value-card reveal">
+          <span>04</span>
+          <h3>Acompanhe tudo em gráficos</h3>
+          <p>Dashboard com pedidos em aberto, visitas, aprovações, não conformidades, clientes críticos e itens mais verificados.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="demonstracao" class="section screen-showcase">
+      <div class="showcase-copy reveal">
+        <span class="eyebrow">Telas reais do produto</span>
+        <h2>O cliente entende rápido porque vê o sistema funcionando.</h2>
+        <p>Use o portal para controlar cadastros, equipes, modelos, ordens, aprovações e auditoria. Use o app para executar em campo com poucos toques.</p>
+        <ul class="check-list">
+          <li>Login por empresa, perfil e permissões.</li>
+          <li>Pedidos, checklists e relatórios separados por empresa.</li>
+          <li>Portal único na Vercel, com segurança no Supabase por empresa_id.</li>
+        </ul>
+      </div>
+      <div class="screen-grid reveal delay-1">
+        <figure class="portal-shot">
+          <img src="assets/portal-equipe-real.png" alt="Portal FieldCheck Pro com equipe e permissões" />
+          <figcaption>Portal administrativo: equipe, perfis e permissões por empresa.</figcaption>
+        </figure>
+        <figure class="app-shot">
+          <img src="assets/app-home.png" alt="Aplicativo FieldCheck Pro na tela inicial" />
+          <figcaption>App de campo: ordens, ocorrências, inventário e relatórios no celular.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="portal" class="section portal-section">
+      <div class="section-title reveal">
+        <span class="eyebrow">Portal gerencial</span>
+        <h2>Uma central para enxergar cada cliente, pedido, visita e pendência.</h2>
+        <p>O portal foi pensado para quem precisa administrar a operação sem abrir várias planilhas ou depender de mensagens soltas.</p>
+      </div>
+      <div class="portal-layout">
+        <div class="portal-browser reveal">
+          <div class="browser-bar"><i></i><i></i><i></i><span>brs-erp-web.vercel.app</span></div>
+          <img src="assets/portal-equipe-real.png" alt="Tela real do portal FieldCheck Pro" />
+        </div>
+        <div class="portal-features">
+          <article class="reveal"><strong>Dashboard visual</strong><p>Pedidos por cliente, status, visitas, aprovações, itens mais verificados e alertas de não conformidade.</p></article>
+          <article class="reveal"><strong>Equipe e acessos</strong><p>Crie técnicos, supervisores e administradores, definindo o que cada perfil pode acessar.</p></article>
+          <article class="reveal"><strong>Modelos por TAG</strong><p>Padronize os itens checados por tipo de equipamento, como JAN para janelas ou BOM para bombas.</p></article>
+          <article class="reveal"><strong>Aprovação e auditoria</strong><p>Relatórios enviados pelo campo podem ser aprovados, reabertos e auditados pelo gestor.</p></article>
         </div>
       </div>
-      <div class="workflow-card reveal delay-1">
-        <div><b>1</b><strong>Planejar</strong><small>Crie modelos, equipes e rotinas.</small></div>
-        <div><b>2</b><strong>Executar</strong><small>Técnicos preenchem pelo app.</small></div>
-        <div><b>3</b><strong>Comprovar</strong><small>Fotos, assinatura e localização.</small></div>
-        <div><b>4</b><strong>Gerenciar</strong><small>Portal web, histórico e indicadores.</small></div>
+    </section>
+
+    <section class="section app-section">
+      <div class="app-gallery reveal">
+        <img src="assets/app-operacoes.png" alt="Operações no aplicativo FieldCheck Pro" />
+        <img src="assets/app-modelos.png" alt="Modelos de checklist no aplicativo FieldCheck Pro" />
+        <img src="assets/app-assinatura.png" alt="Assinatura digital no aplicativo FieldCheck Pro" />
+      </div>
+      <div class="app-copy reveal delay-1">
+        <span class="eyebrow">Aplicativo para o técnico</span>
+        <h2>Simples para executar. Difícil de burlar.</h2>
+        <p>O técnico recebe a ordem, inicia o serviço, preenche o checklist, registra fotos, ocorrências e assinatura. A empresa acompanha o retorno pelo portal.</p>
+        <div class="mini-metrics">
+          <div><strong>PDF</strong><span>Relatório final</span></div>
+          <div><strong>Foto</strong><span>Evidência por item</span></div>
+          <div><strong>GPS</strong><span>Localização registrada</span></div>
+        </div>
       </div>
     </section>
 
     <section id="modulos" class="section modules-section">
       <div class="section-title reveal">
-        <span class="eyebrow">Plataforma modular</span>
-        <h2>Escolha apenas os módulos que sua empresa precisa</h2>
-        <p>Cada operação é diferente. Por isso o CHECKLISTPRO pode ser vendido por módulos, adaptando-se à realidade de cada cliente.</p>
+        <span class="eyebrow">SaaS modular</span>
+        <h2>Cada empresa contrata só o que realmente precisa.</h2>
+        <p>O FieldCheck Pro foi estruturado para crescer como plataforma multiempresa, com módulos habilitados por cliente e planos flexíveis.</p>
       </div>
       <div class="modules-grid">
-        <article class="module-card reveal"><span>🚜</span><h3>Entrega Técnica</h3><p>Checklists de entrega, fotos, aceite do cliente e PDF final.</p></article>
-        <article class="module-card reveal"><span>🛠️</span><h3>Manutenção Preventiva</h3><p>Planos, alertas, equipamentos e histórico de intervenções.</p></article>
-        <article class="module-card reveal"><span>⚙️</span><h3>Manutenção Corretiva</h3><p>Registro de falhas, peças, fotos e solução aplicada.</p></article>
-        <article class="module-card reveal"><span>🧾</span><h3>Auditorias</h3><p>Inspeções padronizadas com evidências e pontuação.</p></article>
-        <article class="module-card reveal"><span>🦺</span><h3>Segurança do Trabalho</h3><p>Rotinas, EPIs, inspeções e não conformidades.</p></article>
-        <article class="module-card reveal"><span>🛒</span><h3>Reposição de Loja</h3><p>Fotos de gôndolas, ruptura, campanhas e execução no PDV.</p></article>
-        <article class="module-card reveal"><span>📦</span><h3>Inventário</h3><p>Conferência de itens, patrimônio e controle por local.</p></article>
-        <article class="module-card reveal"><span>🚨</span><h3>Ocorrências / RN</h3><p>Registre não conformidades, custos, prazos e responsáveis.</p></article>
-        <article class="module-card reveal"><span>📊</span><h3>Dashboard Gerencial</h3><p>Indicadores por empresa, técnico, cliente, módulo e status.</p></article>
-        <article class="module-card reveal"><span>📄</span><h3>Relatórios PDF</h3><p>Documentos profissionais com fotos, assinatura e histórico.</p></article>
-        <article class="module-card reveal"><span>👥</span><h3>Gestão de Equipes</h3><p>Níveis de acesso, permissões, supervisão e produtividade.</p></article>
-        <article class="module-card reveal"><span>🔎</span><h3>Inspeções em Campo</h3><p>Vistorias técnicas, laudos, checklist e evidências digitais.</p></article>
+        <article class="module-card reveal"><b>ET</b><h3>Entrega Técnica</h3><p>Ordens, checklist, aceite do cliente, assinatura e PDF.</p></article>
+        <article class="module-card reveal"><b>MP</b><h3>Manutenção Preventiva</h3><p>Rotinas programadas, histórico e controle por equipamento.</p></article>
+        <article class="module-card reveal"><b>MC</b><h3>Manutenção Corretiva</h3><p>Falhas, peças, solução aplicada e não conformidades.</p></article>
+        <article class="module-card reveal"><b>AU</b><h3>Auditorias</h3><p>Inspeções internas, evidências, aprovação e rastreabilidade.</p></article>
+        <article class="module-card reveal"><b>ST</b><h3>Segurança do Trabalho</h3><p>Checklists de EPI, conformidade, fotos e relatórios.</p></article>
+        <article class="module-card reveal"><b>IN</b><h3>Inspeções</h3><p>Vistorias técnicas, laudos e acompanhamento por status.</p></article>
+        <article class="module-card reveal"><b>IV</b><h3>Inventário</h3><p>Levantamento de peças, quantidades, fotos e exportação.</p></article>
+        <article class="module-card reveal"><b>FP</b><h3>Formulários Personalizados</h3><p>Campos e processos adaptados para cada operação.</p></article>
       </div>
     </section>
 
-    <section id="portal" class="section portal-section">
-      <div class="portal-panel reveal">
-        <div>
-          <span class="eyebrow">App + Portal Web</span>
-          <h2>Controle total para quem está no campo e para quem está na gestão.</h2>
-          <p>O técnico executa pelo celular. O gestor acompanha pelo portal. Tudo conectado: clientes, serviços, fotos, pendências, relatórios e indicadores.</p>
-          <div class="portal-benefits">
-            <span>✓ Painel por empresa</span><span>✓ Indicadores por módulo</span><span>✓ Histórico por cliente</span><span>✓ Relatórios profissionais</span>
-          </div>
-        </div>
-        <div class="portal-mockup">
-          <div class="window-bar"><i></i><i></i><i></i></div>
-          <div class="portal-kpis"><strong>Operações</strong><span>Finalizadas 76%</span></div>
-          <div class="bars"><i></i><i></i><i></i><i></i></div>
-          <div class="portal-table"><span>Cliente</span><span>Status</span><span>Técnico</span><b>BRS Equip.</b><em>Finalizado</em><small>João</small><b>Mercado Sul</b><em>Em campo</em><small>Ana</small><b>Usina Alfa</b><em>Pendente</em><small>Carlos</small></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section timeline-section">
+    <section class="section workflow-section">
       <div class="section-title reveal">
-        <span class="eyebrow">Fluxo inteligente</span>
-        <h2>Da ordem de serviço ao resultado gerencial</h2>
+        <span class="eyebrow">Como funciona</span>
+        <h2>Da ordem cadastrada ao relatório aprovado.</h2>
       </div>
-      <div class="timeline reveal">
-        <article><b>01</b><h3>Planejamento</h3><p>Cadastre clientes, equipamentos, modelos e equipes.</p></article>
-        <article><b>02</b><h3>Execução</h3><p>O técnico preenche no aplicativo com segurança.</p></article>
-        <article><b>03</b><h3>Evidências</h3><p>Fotos, observações, assinaturas e comprovantes.</p></article>
-        <article><b>04</b><h3>Relatório</h3><p>PDF profissional gerado automaticamente.</p></article>
-        <article><b>05</b><h3>Indicadores</h3><p>Gestão acompanha produtividade, pendências e resultados.</p></article>
+      <div class="workflow">
+        <article class="reveal"><span>1</span><h3>Cadastre a empresa</h3><p>Super Admin cria empresas, planos, módulos e status.</p></article>
+        <article class="reveal"><span>2</span><h3>Monte equipe e modelos</h3><p>Admin cria usuários, TAGs, checklists e ordens.</p></article>
+        <article class="reveal"><span>3</span><h3>Técnico executa</h3><p>O app coleta fotos, respostas, observações e assinatura.</p></article>
+        <article class="reveal"><span>4</span><h3>Gestor acompanha</h3><p>Portal mostra dashboards, relatórios, ocorrências e pendências.</p></article>
       </div>
     </section>
 
     <section id="segmentos" class="section segments-section">
       <div class="section-title reveal">
         <span class="eyebrow">Diversos mercados</span>
-        <h2>Uma plataforma. Diversos setores. Infinitas possibilidades.</h2>
+        <h2>Um produto para várias operações de campo.</h2>
       </div>
       <div class="segments-grid">
-        <article class="reveal">🏗️ <strong>Construção Civil</strong><small>Vistorias, medições e entrega de obra.</small></article>
-        <article class="reveal">🏭 <strong>Indústria</strong><small>Manutenção, inspeções e segurança.</small></article>
-        <article class="reveal">🛒 <strong>Varejo</strong><small>Reposição, gôndolas e execução no PDV.</small></article>
-        <article class="reveal">🚜 <strong>Agronegócio</strong><small>Entrega técnica, máquinas e assistência.</small></article>
-        <article class="reveal">⚡ <strong>Energia Solar</strong><small>Instalação, vistoria e manutenção.</small></article>
-        <article class="reveal">🚛 <strong>Logística</strong><small>Inspeções, checklist de frota e entrega.</small></article>
-        <article class="reveal">🧹 <strong>Facilities</strong><small>Limpeza, conservação e qualidade.</small></article>
-        <article class="reveal">❄️ <strong>Climatização</strong><small>Instalação, manutenção e aceite.</small></article>
-        <article class="reveal">🔧 <strong>Oficinas</strong><small>Revisões, peças e entrega do veículo.</small></article>
-        <article class="reveal">🏢 <strong>Condomínios</strong><small>Vistorias, manutenção e ocorrências.</small></article>
-        <article class="reveal">🪟 <strong>Vidraçarias</strong><small>Medidas, instalação e comprovação.</small></article>
-        <article class="reveal">💧 <strong>Saneamento</strong><small>Rondas, medições e inspeções técnicas.</small></article>
+        <article class="segment-card reveal"><img src="assets/segmento-construcao-civil.png" alt="Construção civil" /><strong>Construção civil</strong><span>Vistorias, entrega de obra e ocorrências.</span></article>
+        <article class="segment-card reveal"><img src="assets/segmento-instalacao-tecnica.png" alt="Instalação técnica" /><strong>Assistência técnica</strong><span>Ordens, visitas, checklists e assinatura.</span></article>
+        <article class="segment-card reveal"><img src="assets/segmento-manutencao-industrial.png" alt="Manutenção industrial" /><strong>Manutenção industrial</strong><span>Preventiva, corretiva e auditorias.</span></article>
+        <article class="segment-card reveal"><img src="assets/segmento-repositor-varejo.png" alt="Repositor de loja" /><strong>Repositor de loja</strong><span>Fotos, presença, gôndolas e execução no PDV.</span></article>
+        <article class="segment-card reveal"><img src="assets/segmento-energia-solar.png" alt="Energia solar" /><strong>Energia solar</strong><span>Instalação, checklist, laudo e pós-venda.</span></article>
+        <article class="segment-card reveal"><img src="assets/segmento-vidracarias.png" alt="Vidraçarias" /><strong>Vidraçarias</strong><span>TAGs por produto, medidas, instalação e aceite.</span></article>
       </div>
     </section>
 
-    <section class="section future-section">
-      <div class="future-card reveal">
-        <span class="eyebrow">Visão de futuro</span>
-        <h2>Preparado para crescer como uma startup SaaS</h2>
-        <p>O CHECKLISTPRO nasce modular e escalável, pronto para evoluir com recursos avançados.</p>
-        <div class="future-list">
-          <span>🤖 IA para análise de relatórios</span>
-          <span>📍 Geolocalização</span>
-          <span>🔔 Notificações e alertas</span>
-          <span>🔳 QR Code por equipamento</span>
-          <span>🔌 Integrações</span>
-          <span>📴 Modo offline</span>
+    <section class="section security-section">
+      <div class="security-card reveal">
+        <div>
+          <span class="eyebrow">Pronto para vender como SaaS</span>
+          <h2>Multiempresa, seguro e escalável.</h2>
+          <p>Um único portal para todos os clientes, com dados separados por empresa_id, RLS no Supabase, perfis de acesso e módulos contratados por empresa.</p>
+        </div>
+        <div class="security-grid">
+          <span>Super Admin</span>
+          <span>Admin da empresa</span>
+          <span>Supervisor</span>
+          <span>Técnico</span>
+          <span>Módulos por plano</span>
+          <span>Bloqueio por assinatura</span>
         </div>
       </div>
     </section>
 
     <section id="planos" class="section pricing-section">
       <div class="section-title reveal">
-        <span class="eyebrow">Planos flexíveis</span>
-        <h2>Contratação modular para cada tipo de empresa</h2>
+        <span class="eyebrow">Planos comerciais</span>
+        <h2>Comece com teste gratuito e evolua por assinatura.</h2>
+        <p>Os valores podem ser ajustados conforme número de usuários, módulos contratados e volume de operação.</p>
       </div>
       <div class="price-grid">
-        <article class="reveal"><h3>Essencial</h3><strong>Sob consulta</strong><p>Para pequenas equipes que precisam digitalizar checklists, fotos e relatórios.</p><a href="#contato" class="btn btn-secondary dark">Solicitar proposta</a></article>
-        <article class="highlight reveal"><h3>Profissional</h3><strong>Sob consulta</strong><p>Para empresas que precisam de módulos, equipes, histórico e dashboard.</p><a href="#contato" class="btn btn-primary">Quero uma demo</a></article>
-        <article class="reveal"><h3>Empresarial</h3><strong>Sob consulta</strong><p>Multiempresa, permissões avançadas, integrações e personalização.</p><a href="#contato" class="btn btn-secondary dark">Falar com especialista</a></article>
+        <article class="price-card reveal">
+          <h3>Teste gratuito</h3>
+          <strong>30 dias</strong>
+          <p>Ideal para provar o valor com uma empresa antes da assinatura.</p>
+          <ul><li>App de campo</li><li>Portal web</li><li>Relatórios PDF</li></ul>
+          <a class="btn btn-secondary dark" href="https://wa.me/5543984594216?text=Ol%C3%A1%2C%20quero%20testar%20o%20FieldCheck%20Pro" target="_blank" rel="noopener">Solicitar teste</a>
+        </article>
+        <article class="price-card highlight reveal">
+          <h3>Profissional</h3>
+          <strong>Sob consulta</strong>
+          <p>Para empresas que precisam controlar equipe, clientes, checklists, visitas e dashboards.</p>
+          <ul><li>Multiusuário</li><li>Módulos contratados</li><li>Aprovação e auditoria</li></ul>
+          <a class="btn btn-primary" href="https://wa.me/5543984594216?text=Ol%C3%A1%2C%20quero%20uma%20proposta%20do%20FieldCheck%20Pro" target="_blank" rel="noopener">Pedir proposta</a>
+        </article>
+        <article class="price-card reveal">
+          <h3>Empresarial</h3>
+          <strong>Sob consulta</strong>
+          <p>Para operações maiores, com múltiplas áreas, supervisores, integrações e personalização.</p>
+          <ul><li>Multiempresa</li><li>Permissões avançadas</li><li>Suporte e implantação</li></ul>
+          <a class="btn btn-secondary dark" href="https://wa.me/5543984594216?text=Ol%C3%A1%2C%20quero%20falar%20sobre%20o%20plano%20empresarial" target="_blank" rel="noopener">Falar com especialista</a>
+        </article>
       </div>
     </section>
 
     <section id="contato" class="cta reveal">
       <div>
-        <span class="eyebrow">Próximo passo</span>
-        <h2>Vamos profissionalizar sua operação de campo?</h2>
-        <p>Solicite uma demonstração e veja como o CHECKLISTPRO pode se adaptar aos módulos e processos da sua empresa.</p>
+        <span class="eyebrow">Vamos colocar sua operação no digital?</span>
+        <h2>Mostre o FieldCheck Pro para seus clientes com uma apresentação profissional.</h2>
+        <p>Solicite uma demonstração e veja como o app pode ser configurado para entrega técnica, manutenção, auditoria, inspeções, inventário e formulários personalizados.</p>
       </div>
       <div class="contact-card">
-        <h3>Solicitar demonstração</h3>
-        <a class="btn btn-primary full" href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20quero%20conhecer%20o%20CHECKLISTPRO" target="_blank" rel="noopener">Chamar no WhatsApp</a>
-        <a class="email-link" href="mailto:contato@checklistpro.com.br">contato@checklistpro.com.br</a>
-        <small>Troque o número do WhatsApp no arquivo index.html.</small>
+        <h3>Agendar demonstração</h3>
+        <a class="btn btn-primary full" href="https://wa.me/5543984594216?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20quero%20conhecer%20o%20FieldCheck%20Pro" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+        <a class="email-link" href="mailto:fabiochequeribeiro@gmail.com">fabiochequeribeiro@gmail.com</a>
+        <small>Atendimento para demonstração, implantação e dúvidas comerciais.</small>
       </div>
     </section>
   </main>
 
-  <a class="whatsapp-float" href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20gostaria%20de%20conhecer%20o%20CHECKLISTPRO" target="_blank" rel="noopener">💬 Fale conosco</a>
+  <a class="whatsapp-float" href="https://wa.me/5543984594216?text=Ol%C3%A1%2C%20quero%20conhecer%20o%20FieldCheck%20Pro" target="_blank" rel="noopener">Fale no WhatsApp</a>
 
   <footer class="footer">
-    <img src="assets/checklistpro-logo.png" alt="CHECKLISTPRO" />
-    <p>Plataforma modular para gestão de operações em campo.</p>
-    <p>© 2026 CHECKLISTPRO. Todos os direitos reservados.</p>
+    <div>
+      <img src="assets/fieldcheck-logo.png" alt="FieldCheck Pro" />
+      <strong>FieldCheck Pro</strong>
+    </div>
+    <p>Plataforma SaaS para operações em campo, checklists, relatórios e gestão visual.</p>
+    <p>© 2026 FieldCheck Pro. Todos os direitos reservados.</p>
   </footer>
 
   <script>
