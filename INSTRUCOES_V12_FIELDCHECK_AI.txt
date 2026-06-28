@@ -1,0 +1,19 @@
+FieldCheck Pro V12 - FieldCheck AI
+
+Atualizações incluídas:
+- Nova seção FieldCheck AI na home.
+- Nova página /ia/ com explicação comercial da IA.
+- SEO atualizado para IA, checklist, manutenção, inspeções e operações em campo.
+- Sitemap atualizado com /ia/.
+- Mantido Google Analytics G-L0G195PP9M.
+
+Publicação:
+1. Substitua os arquivos do site pela pasta extraída.
+2. Rode localmente, se desejar: npm start
+3. Publique no GitHub:
+   git add .
+   git commit -m "Atualiza site V12 com FieldCheck AI"
+   git push origin main
+
+Observação:
+A IA real deve ser conectada futuramente por backend seguro ou Supabase Edge Function, sem chave exposta no app ou navegador.
