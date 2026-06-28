@@ -1,0 +1,27 @@
+FIELDHECK PRO - V10 ANALYTICS + SEO
+
+O que foi ajustado:
+- package.json sem script de build, evitando erro de pasta public na Vercel.
+- vercel.json com outputDirectory: .
+- Google Analytics GA4 mantido com ID G-L0G195PP9M.
+- Eventos extras em assets/analytics-events.js:
+  click_whatsapp, click_email, click_cta, click_blog, click_outbound, form_submit, scroll_depth, engaged_30_seconds e generate_lead.
+- Páginas de módulos preservadas.
+- Blog com 3 artigos criados:
+  /blog/checklist-digital/
+  /blog/manutencao-preventiva/
+  /blog/inspecoes-industriais/
+- Sitemap atualizado com páginas do blog e módulos.
+
+Como publicar:
+1. Extraia o ZIP.
+2. Substitua os arquivos na pasta do projeto.
+3. No terminal:
+   git add .
+   git commit -m "Atualiza site v10 com eventos SEO e blog"
+   git push origin main
+4. Aguarde a Vercel ficar Ready.
+5. Teste:
+   https://fieldcheckpro.com.br/robots.txt
+   https://fieldcheckpro.com.br/sitemap.xml
+   https://fieldcheckpro.com.br/blog/checklist-digital/
