@@ -1,0 +1,32 @@
+FIELDCheck Pro - Atualização v9
+
+Incluído nesta versão:
+1. Google Analytics 4 instalado com ID G-L0G195PP9M.
+2. Eventos automáticos para WhatsApp, e-mail, CTA e formulários.
+3. Schema.org atualizado na home e nas páginas internas.
+4. Páginas SEO dos módulos:
+   /entrega-tecnica/
+   /manutencao-preventiva/
+   /manutencao-corretiva/
+   /auditorias/
+   /seguranca-do-trabalho/
+   /repositor/
+   /inspecoes/
+   /inventario/
+   /formularios-personalizados/
+5. Blog inicial:
+   /blog/
+   /blog/checklist-digital/
+   /blog/manutencao-preventiva/
+   /blog/inspecoes-industriais/
+6. sitemap.xml atualizado com todas as URLs.
+
+Como publicar:
+git add .
+git commit -m "Atualiza site v9 com Analytics SEO paginas e blog"
+git push origin main
+
+Depois de publicar:
+- Abrir https://fieldcheckpro.com.br/sitemap.xml
+- Reenviar sitemap.xml no Search Console
+- Abrir o Analytics em Tempo real e acessar o site em outra aba para confirmar visita.
