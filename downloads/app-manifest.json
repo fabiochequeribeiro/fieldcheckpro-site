@@ -2,12 +2,13 @@
   "schema_version": 1,
   "product": "FieldCheck Pro",
   "platform": "android",
-  "channel": "demo",
+  "channel": "pilot",
   "version": "1.0.7",
   "version_code": 8,
   "mandatory": false,
-  "published_at": "2026-07-13T15:54:31-03:00",
-  "download_url": "https://github.com/fabiochequeribeiro/fieldcheckpro-app/releases/download/apk-demo-2026-07-13-422e777/fieldcheckpro-preview.apk",
+  "published_at": "2026-07-21T21:20:46-03:00",
+  "download_url": "https://github.com/fabiochequeribeiro/fieldcheckpro-app/releases/download/fieldcheckpro-ai-pilot-2026-07-21-b1427d5/fieldcheckpro-homologacao-ai-1.0.7.apk",
+  "checksum_sha256": "D1F03BF26A7D7EC5501537869D43D8A489F4552A3D54F619972D7D5FFCDAFFDC",
   "download_page_url": "https://fieldcheckpro.com.br/demo-apk/",
   "platform_page_url": "https://fieldcheckpro.com.br/plataforma/",
   "portal_url": "https://brs-erp-web.vercel.app",
@@ -18,6 +19,7 @@
   "release_notes": [
     "Demonstracao comercial isolada de dados reais.",
     "Fluxo guiado com checklist, fotos, assinatura, PDF e historico.",
-    "Central da Plataforma preparada para Portal, licenca e atualizacoes."
+    "Central da Plataforma conectada ao Portal, licenca e atualizacoes.",
+    "FieldCheck AI via backend seguro, com orientacao local quando a API estiver indisponivel."
   ]
 }
