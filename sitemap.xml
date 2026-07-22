@@ -197,4 +197,22 @@
     <lastmod>2026-06-29</lastmod>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>https://fieldcheckpro.com.br/plataforma/</loc>
+    <lastmod>2026-07-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://fieldcheckpro.com.br/privacidade/</loc>
+    <lastmod>2026-07-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://fieldcheckpro.com.br/fieldcheck-ai/</loc>
+    <lastmod>2026-07-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
